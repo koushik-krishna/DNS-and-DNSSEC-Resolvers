@@ -1,0 +1,32 @@
+>python mydig.py --domainName google.co.jp --type A
+QUESTION SECTION:
+google.co.jp.   IN      A
+
+ANSWER SECTION:
+google.co.jp.   IN      172.217.10.35
+
+Query time: 497.93291091918945 msec
+WHEN: 23-Sep-2020 20:57:31.112746
+MSG SIZE rcvd: 41
+
+>python mydig.py --domainName google.co.jp --type NS
+QUESTION SECTION:
+google.co.jp.   IN      NS
+
+ANSWER SECTION:
+google.co.jp.   IN      ns3.google.com.
+
+Query time: 564.9549961090088 msec
+WHEN: 23-Sep-2020 20:57:55.893764
+MSG SIZE rcvd: 43
+
+>python mydig.py --domainName google.co.jp --type MX
+QUESTION SECTION:
+google.co.jp.   IN      MX
+
+ANSWER SECTION:
+google.co.jp.   IN      alt4.aspmx.l.google.com.
+
+Query time: 525.9418487548828 msec
+WHEN: 23-Sep-2020 20:58:11.610011
+MSG SIZE rcvd: 52
