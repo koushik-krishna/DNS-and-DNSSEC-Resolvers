@@ -1,3 +1,7 @@
+Author
+Koushik Kumar Reddy Modugu
+
+
 mydig.py implements the DNS Resolver.
 dnssec.py implements DNSSEC Resolver.
 
